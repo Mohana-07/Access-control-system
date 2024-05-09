@@ -1,0 +1,23 @@
+• Open Visual Studio Code 
+• open the code folder in Visual Studio code
+• open the terminal execute following commands
+
+• Execute these commands in the terminal
+
+1. Make sure that terminal path and our folder paths should be same to do that execute following commands
+cd (path of the folder)
+
+2. Environment setup named fr or else you can create with other names too:
+python -m venv fr 
+./fr/Scripts/activate
+
+3. Then install requirements in this environment
+• Here we are using Python 3.10.6 and we install the dlib version according to that only
+pip install cmake
+pip install "D:\face\10-video_app\dlib-19.22.99-cp310-cp310-win_amd64.whl" #give full path for this file which I include in code folder
+pip install -r requirements.txt
+
+4. code execution
+python utils.py
+• then
+streamlit run Dashboard.py #it opens an application window in the browser there you can access it
