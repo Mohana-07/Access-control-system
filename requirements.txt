@@ -2,6 +2,7 @@ opencv-python
 cmake
 pyyaml
 streamlit==1.22.0
+"https://github.com/Mohana-07/Access-control-system/blob/main/dlib-19.22.99-cp310-cp310-win_amd64.whl"
 dlib
 #Fork of face_recognition using prebuild dlib library instead
 face_recognition @ git+https://github.com/thetoby9944/face_recognition
